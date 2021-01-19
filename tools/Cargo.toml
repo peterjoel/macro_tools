@@ -1,0 +1,11 @@
+[package]
+name = "macro_tools"
+version = "0.1.0"
+authors = ["Fifth Row Technologies"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+macro_tools_core = { version = "=0.1.0", path = "../core" }

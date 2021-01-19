@@ -1,0 +1,10 @@
+[package]
+name = "macro_tools_core"
+version = "0.1.0"
+authors = ["Fifth Row Technologies"]
+edition = "2018"
+
+[dependencies]
+proc-macro2 = "1"
+syn = { version = "1", features = ["full"] }
+quote = "1" 
